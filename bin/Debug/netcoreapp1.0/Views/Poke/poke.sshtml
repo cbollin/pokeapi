@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>
+         <link rel="stylesheet" href="Content/style.css"/>
+         <title>PokeAPI</title>
+    </head>
+    <body>
+        <center>
+            <h2>Who's That Pokemon(API)?</h2>
+            <p>Name: @ViewBag.Name</p>
+            <p>Weight: @ViewBag.Weight</p>
+            <p>Height: @ViewBag.Height</p>
+            <p>Sprite: @ViewBag.Front</p>
+            <p>Sprite: @ViewBag.Sprite</p>
+         
+        </center>
+    </body>
+</html>
