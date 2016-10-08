@@ -13,7 +13,6 @@
             <p>Weight: @ViewBag.Weight</p>
             <p>Height: @ViewBag.Height</p>
             <p>Sprite: @ViewBag.Front</p>
-            <p>Sprite: @ViewBag.Sprite</p>
          
         </center>
     </body>
