@@ -6,15 +6,15 @@
          <link rel="stylesheet" href="Content/style.css"/>
          <title>PokeAPI</title>
     </head>
-    <body>
+    <body style="height: 475px; width: 500px; border: 1px solid grey; margin-top: 100px; margin: 20px; padding: 10px;">
         <center>
-            <h2>Who's That Pokemon(API)?</h2>
+            <h4>Welcome to the Pokedex</h4>
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png">
             <p>Name: @ViewBag.Name</p>
             <p>Weight: @ViewBag.Weight</p>
             <p>Height: @ViewBag.Height</p>
-            <p>Sprite: @ViewBag.Front</p>
-            <p>Sprite: @ViewBag.Sprite</p>
-         
+            <h5>Try another URL to view a different Pokemon!</h5>
+            <i><h6>This Pokedex is using http://www.pokeapi.co</h6></i>
         </center>
     </body>
 </html>
